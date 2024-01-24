@@ -1,49 +1,6 @@
-.card {
-    
+.mainStructure {
     display: grid;
-    grid-template-columns: 1fr;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
+    grid-template-columns: repeat(2, 1fr); /* Deux colonnes égales */
+    background-color: cadetblue;
     border-radius: 10px;
-}
-
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-img {
-    img {
-        width: 100%;
-        height: 100%;
-        object-fit: contain; /* Conserver le ratio d'aspect sans déformation */
-    }
-  }
-
-  .image-wrapper {
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-.card-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.left-column {
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-}
-
-.right-column {
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Centre le contenu horizontalement par rapport à la colonne */
-    align-self: center;
-}
-
-h4, p {
-    margin: 0;
-    margin-bottom: 0.5rem;
 }
