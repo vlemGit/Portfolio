@@ -6,11 +6,12 @@ import { NavbarComponent } from './template/navbar/navbar.component';
 import { MainComponent } from './template/main/main.component';
 import { FooterComponent } from './template/footer/footer.component';
 import { ProjectsComponent } from './template/projects/projects.component';
+import { ToolsComponent } from './template/tools/tools.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, HeaderComponent, FooterComponent, NavbarComponent, MainComponent, ProjectsComponent],
+  imports: [CommonModule, RouterOutlet, HeaderComponent, FooterComponent, NavbarComponent, MainComponent, ProjectsComponent, ToolsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

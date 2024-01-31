@@ -1,0 +1,45 @@
+.gallery-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.index-container {
+    width: 10%;
+    padding: 20px;
+}
+
+.index {
+    width: 10%;
+    padding: 20px;
+    background-color: #ee1e1e;
+    position: fixed;
+    align-self: flex-start;
+}
+
+.cards-container {
+    width: 70%;
+    padding: 20px;
+    max-height: 60vh;
+    overflow-y: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    grid-template-rows: repeat(auto-fill, minmax(200px, 1fr));
+    row-gap: 20px;
+    background-color: burlywood;
+    border-radius:  15px;
+}
+
+.card {
+    width: 90%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    transition: 0.3s;
+    border-radius:  10px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}

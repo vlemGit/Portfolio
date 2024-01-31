@@ -16,4 +16,7 @@ export class NavbarComponent {
   navigateToProjects() {
     this.router.navigate(['/projects']);
   }
+  navigateToTools(){
+    this.router.navigate(['/tools']);
+  }
 }
